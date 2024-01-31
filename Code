@@ -1,0 +1,12 @@
+{
+    "cURL": [
+        "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=",
+        "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro-vision:generateContent?key="
+    ],
+    "Error": "Para utilizar este atajo, necesitas una clave API de Google Cloud Platform. ¿Te gustaría obtener tu clave API ahora?\nCreated by Edisson Torres.",
+    "EOF": "\"}]}]}",
+    "CONCAT": [
+        "\"}]},{\"role\":\"model\",\"parts\":[{\"text\":\"",
+        "\"}]},{\"role\":\"user\",\"parts\":[{\"text\":\"YOUR_USER_INPUT\"}]}]}"
+    ]
+}
