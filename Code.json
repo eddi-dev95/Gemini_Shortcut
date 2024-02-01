@@ -9,5 +9,6 @@
         "\"}]},{\"role\":\"model\",\"parts\":[{\"text\":\"",
         "\"}]},{\"role\":\"user\",\"parts\":[{\"text\":\"YOUR_USER_INPUT\"}]}]}"
     ], 
-    "CODE": "{\"contents\": [{\"role\": \"user\",\"parts\": [{\"text\": \"Hola\"}]},{\"role\": \"model\",\"parts\": [{\"text\": \"¡Hola! ¿En qué puedo ayudarte?\"}]},{\"role\": \"user\",\"parts\": [{\"text\": \"YOUR_USER_INPUT\"}]}]}"
+    "CODE": "{\"contents\": [{\"role\": \"user\",\"parts\": [{\"text\": \"Hola\"}]},{\"role\": \"model\",\"parts\": [{\"text\": \"¡Hola! ¿En qué puedo ayudarte?\"}]},{\"role\": \"user\",\"parts\": [{\"text\": \"YOUR_USER_INPUT\"}]}]}",
+    "versión":["1.0","2024.02.01"]
 }
