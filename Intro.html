@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="version" content="1.0">
+  <meta name="build-date" content="2024-02-01">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Introducción</title>
+  <style>
+    @media (min-width: 429px) {
+      .swipe {
+        display: none;
+      }
+    }
+  @media (prefers-color-scheme: dark) {
+     body, main {
+        background-color: #1C1C1E;
+        color: #f1f1f1;
+     }
+     p, button {
+       color: #f1f1f1;
+     }
+    .container {
+      box-shadow: 0px 0px 10px rgba(0,0,0,1);
+    }
+   }
+   .container {
+      padding: 1rem;
+      border-radius: 20px;
+      max-width:375px;
+      margin: 0 auto;
+      box-shadow: 0px 0px 10px rgba(125,119,125,1); /* theme-dark: 0px 0px 10px rgba(0,0,0,1); */
+    }
+   body {
+     font-family: system-ui;
+     font-weight:600;
+     text-align:center;
+     margin: 0 auto;
+     padding: 0.5rem;
+    }
+    .intro {
+      width:100%;
+      height: 250px;
+      border-radius: 20px;
+    }
+     a {
+      color: #4b97f3;
+    }
+    p, h1, h2 {
+      text-align: left;
+    }
+    span {
+      color: #4b97f3;
+    }
+     .btn {
+      border: none;
+      border-radius: 50px;
+      padding: 15px 0;
+      width: 100%;
+      margin-bottom: 1.5rem;
+      background-image: linear-gradient(45deg, #4b97f3, #a8bdea);
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <h1>Bienvenido</h1>
+    <h2>Gemini Shortcut by <span class="by">Edisson Torres</span></h2>
+    <img src="https://raw.githubusercontent.com/eddi-dev95/Emoji-PNG/main/Captura%20de%20pantalla%202024-01-31%20175845.png" alt="" class="intro">
+    <p>Te doy la bienvenida a esta herramienta que te facilitara la manera de hacer las cosas, te ayudara a resolver cualquier tipo de problema e incluso puedes compartir imagenes para obtener informacion sobre la misma. Este atajo lo he creado gracias a la nueva herramienta de Google "Gemini". Este proyecto es una prueba experimental que puede contener errores, pero no te preocupes, puedes reportarlo por  <a href="mailto:eddi_developer@hotmail.com">correo electronico</a>. Usa esta herramienta bajo tu responsabilidad. <br>Para hacer uso de este Shortcut necesitas de una clave API gratuita que puedes conseguir en <a href="https://makersuite.google.com/app/apikey" class="api">Google AI Studio</a>, copia la clave y luego pegala en el campo requerido (recuerda no utilizar: espacios, saltos de linea. Unicamente el cuerpo de la clave API). Ahora podras ejecutar el atajo sin ningun problema, pero eso no es todo. Tambien tendras un historial donde podras encontrar todas tus preguntas y respuestas generadas en este Shortcut, lo cual tambien ayudara a que este sea conversacional, es decir, puedes hacer preguntas de respuestas que hayas echo minutos, incluso dias atras. Si deseas puedes borrar este historial manuelmente y se generara  uno nuevo. <br>Espero que lo disfrutes.</p>
+    <button class="btn" href="shortcuts://run-shortcut?name=Ayúdame%20con%20esto">Vamos allá</button>
+  </main>
+</body>
+</html>
